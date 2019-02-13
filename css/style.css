@@ -89,6 +89,9 @@
 	.social-icon{
 		padding-top:50px !important ;
 	}
+	.hire_download a{
+	padding: 0;
+}
 }
 
 /*------------------------about -section---------------------------*/
