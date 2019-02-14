@@ -3,6 +3,7 @@
 	position: relative;
 	height: 600px;
 	width: 100%;
+	position: relative;
 }
 .header{
 	background: 50% 50% no-repeat;
@@ -14,11 +15,14 @@
 	background-attachment: fixed;
 	opacity: 0.9;	
 }
+/*-----------------menu--------------------*/
+
+
 
 .header .header_img img{
 	height:150px;
 	width:150px;
-	box-shadow: 2px 2px 30px white;
+	box-shadow: 2px 2px 30px #FFFFFF;
 	border-radius: 50%;
 	margin: 50px;
 }
@@ -32,7 +36,7 @@
 	font-weight: bold;
 	 font-family: Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif; 
 }
-.header .name_dis h4{
+.header .name_dis h3{
 	word-spacing: 5px;
 	font-weight: bold;
     font-family: Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif; 
@@ -78,16 +82,16 @@
 .social-icon a{
 	text-decoration: none;
 	color: #f39c12;
-	background: gray;
+	background:#34495e;
 	padding: 20px;
 	border-radius: 50%;
 }
 .social-icon a:hover{
-	background: #34495e;
+	background: gray ;
 }
 @media all and (max-width: 769px){
 	.social-icon{
-		padding-top:50px !important ;
+		padding-top:100px !important ;
 	}
 	.hire_download a{
 	padding: 0;
@@ -181,7 +185,6 @@
 	background: #E0E0E0;
 }
 .port{
-	padding-top:100px;
 	font-family:  Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif; 
 	font-weight: bold;
 	text-shadow: 2px 2px;
@@ -197,7 +200,7 @@
     text-align: center;
     font-size: 300%;
     padding: 15px;
-    color: #fff;
+    color: yellow;
     background: gray;
     border-radius: 20%;
     margin: 25px 7px;
@@ -213,6 +216,15 @@
 .gallery img{
 	box-shadow: 2px 2px 5px;
 	margin:10px 0;
+	position: relative;
+}
+.gallery h3{
+	position: absolute;
+	top:40%;
+	left: 40%;
+}
+.gallery img:hover{
+	opacity: 0.4;
 }
 
 /*-------------------------service-----------------------------*/
